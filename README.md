@@ -10,3 +10,6 @@ This repository contains the code for a standalone HTML element that displays a 
     server="https://pmyvdlilci.execute-api.us-east-1.amazonaws.com/klab"
 ></vibecheck-widget>
 ```
+
+
+See a live demo [here](https://kordinglab.com/vibecheck-webcomponents/demo.html).
