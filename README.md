@@ -13,3 +13,5 @@ This repository contains the code for a standalone HTML element that displays a 
 
 
 See a live demo [here](https://kordinglab.com/vibecheck-webcomponents/demo.html).
+
+The code for this tool is available [on GitHub](https://github.com/KordingLab/vibecheck-webcomponents) and is licensed under an Apache 2.0 license.
