@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Feedback Widget</title>
+    <script src="./vibecheck-widget.js"></script>
+    <!-- water.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="card-title">Try out the Vibecheck Widget below!</h1>
+        <div class="card-content">
+            <vibecheck-widget section-id="Web Component Demo" project="public_testbed" user-key="3zg0t05r"
+                server="https://pmyvdlilci.execute-api.us-east-1.amazonaws.com/klab"></vibecheck-widget>
+        </div>
+        <p>This is an example of the Vibecheck widge running as a standalone Web Component. The code to create this
+            looks like this:</p>
+        <pre>
+            <code>&lt;vibecheck-widget
+    section-id="Web Component Demo"
+    project="public_testbed"
+    user-key="3zg0t05r"
+    server="https://pmyvdlilci.execute-api.us-east-1.amazonaws.com/klab"
+/&gt;</code>
+        </pre>
+    </div>
+
+    <script>
+        customElements.define('vibecheck-widget', VibecheckWidget);
+    </script>
+
+    <style>
+        .card {
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .card-title {
+            margin: 0;
+            padding: 0;
+            font-size: 1.5em;
+        }
+
+        .card-content {
+            margin-top: 20px;
+            background: #efefef;
+            padding: 1em;
+        }
+    </style>
+
+</body>
+
+</html>
